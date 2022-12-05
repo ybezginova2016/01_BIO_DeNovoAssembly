@@ -17,7 +17,7 @@ class Edge:
 
 def read_reads(fname):
     """ Read short reads in FASTA format. It is assumed that one line in the input file correspond to one read. """
-    f = open(fname, 'reads')
+    f = open(fname, 'r')
     lines = f.readlines()
     f.close()
     reads = []
