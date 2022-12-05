@@ -13,7 +13,7 @@ These reads (DNA fragments) of repeated sequences overlap. The task is to constr
 
 ### Code file: https://github.com/ybezginova2016/01_BIO_DeNovoAssembly/blob/main/01_main_DeNovoAssembly.ipynb
 
-### Relevant Reading:
+### Relevant Readings:
 
 - Palmer, L. E., Dejori, M., Bolanos, R., & Fasulo, D. (2010). Improving de novo sequence assembly using machine learning and comparative genomics for overlap correction. BMC bioinformatics, 11(1), 1-9.
 
