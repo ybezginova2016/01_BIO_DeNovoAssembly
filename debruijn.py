@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
+# In[7]:
 
 
 class Node:
@@ -17,7 +17,7 @@ class Edge:
 
 def read_reads(fname):
     """ Read short reads in FASTA format. It is assumed that one line in the input file correspond to one read. """
-    f = open(fname, 'r')
+    f = open(fname, 'reads')
     lines = f.readlines()
     f.close()
     reads = []
