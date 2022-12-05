@@ -80,7 +80,7 @@ def print_graph(g):
     """ Print the information in the graph to be (somewhat) presentable """
     V = g[0]
     E = g[1]
-    for k in V.keys():
+    for k in list(V.keys()):
         print("name: ", V[k].label, ". indegree: ", V[k].indegree, ". outdegree: ", V[k].outdegree)
         print("Edges: ")
         for e in E[k]:
