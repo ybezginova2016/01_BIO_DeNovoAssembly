@@ -18,3 +18,5 @@ These reads (DNA fragments) of repeated sequences overlap. The task is to constr
 - Palmer, L. E., Dejori, M., Bolanos, R., & Fasulo, D. (2010). Improving de novo sequence assembly using machine learning and comparative genomics for overlap correction. BMC bioinformatics, 11(1), 1-9.
 
 - Padovani de Souza, K., Setubal, J. C., Ponce de Leon F. de Carvalho, A. C., Oliveira, G., Chateau, A., & Alves, R. (2019). Machine learning meets genome assembly. Briefings in Bioinformatics, 20(6), 2116-2129.
+
+- https://towardsdatascience.com/genome-assembly-using-de-bruijn-graphs-69570efcc270
