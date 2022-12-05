@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
+# In[9]:
 
 
 class Node:
@@ -60,7 +60,7 @@ def output_contigs(g):
     V = g[0]
     E = g[1]
     # Pick starting node (the vertex with zero in degree)
-    start = V.keys()[0]
+    start = list(V.keys())[0]
     for k in V.keys():
         if V[k].indegree < V[start].indegree:
             start = k
@@ -86,4 +86,3 @@ def print_graph(g):
         for e in E[k]:
             print(e.label)
         print()
-
