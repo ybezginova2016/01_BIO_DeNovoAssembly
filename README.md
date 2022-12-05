@@ -11,7 +11,7 @@ Tips:
 ## Project objectives
 These reads (DNA fragments) of repeated sequences overlap. The task is to construct a de novo method to assemble these reads and obtain the gene sequence. 
 
-### Code file: https://github.com/ybezginova2016/01_BIO_DeNovoAssembly/blob/main/01_main_DeNovoAssembly.ipynb
+### Code file: https://github.com/ybezginova2016/01_BIO_DeNovoAssembly/blob/main/main_DeNovoAssembly.ipynb
 
 ### Relevant Readings:
 
