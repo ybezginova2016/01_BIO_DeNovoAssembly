@@ -1,8 +1,5 @@
-#!/usr/bin/env python
 # coding: utf-8
-
-# In[9]:
-
+# implementation of the graph
 
 class Node:
     """ Class Node to represent a vertex in the de bruijn graph """
