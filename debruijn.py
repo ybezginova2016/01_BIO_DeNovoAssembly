@@ -1,5 +1,6 @@
 # coding: utf-8
-# implementation of the graph
+
+# Implementation of the de Bruijn graph
 
 class Node:
     """ Class Node to represent a vertex in the de bruijn graph """
@@ -11,19 +12,6 @@ class Node:
 class Edge:
     def __init__(self, lab):
         self.label = lab
-
-def read_reads(fname):
-    """ Read short reads in FASTA format. It is assumed that one line in the input file correspond to one read. """
-    f = open(fname, 'r')
-    lines = f.readlines()
-    f.close()
-    reads = []
-
-    for line in lines:
-        if line[0] != '>':
-            reads = reads + [line.rstrip()]
-
-    return reads
 
 def construct_graph(reads, k):
     """ Construct de bruijn graph from sets of short reads with k length word"""
