@@ -30,7 +30,7 @@ def construct_graph(reads, k):
 
     return (vertices, edges)
 
-def output_contigs(g):
+def eulerian_path(g):
     """ Perform searching for Eulerian path in the graph to output genome assembly"""
     V = g[0]
     E = g[1]
