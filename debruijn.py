@@ -51,20 +51,9 @@ def output_contigs(g):
 
     return contig
 
-def print_graph(g):
-    """ Print the information in the graph to be (somewhat) presentable """
-    V = g[0]
-    E = g[1]
-    for k in list(V.keys()):
-        print("name: ", V[k].label, ". indegree: ", V[k].indegree, ". outdegree: ", V[k].outdegree)
-        print("Edges: ")
-        for e in E[k]:
-            print(e.label)
-        print()
-
-def read_reads(fname):
+def load_r(filename):
     """ Read short reads in FASTA format. It is assumed that one line in the input file correspond to one read. """
-    f = open(fname, 'r')
+    f = open(filename, 'r')
     lines = f.readlines()
     f.close()
     reads = []
