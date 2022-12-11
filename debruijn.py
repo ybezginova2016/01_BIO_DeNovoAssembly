@@ -1,17 +1,7 @@
 # coding: utf-8
+from common import Node, Edge
 
 # Implementation of the de Bruijn graph
-
-class Node:
-    """ Class Node to represent a vertex in the de bruijn graph """
-    def __init__(self, lab):
-        self.label = lab
-        self.indegree = 0
-        self.outdegree = 0
-
-class Edge:
-    def __init__(self, lab):
-        self.label = lab
 
 def construct_graph(reads, k):
     """ Construct de bruijn graph from sets of short reads with k length word"""
